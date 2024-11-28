@@ -113,9 +113,155 @@ body {
 .landing__plataformas__conteudo__cabecalho {
     align-self: flex-start;
     font-size: 4rem;
+    font-weight: 600;
 }
 
 .landing__plataformas__conteudo__texto {
     color: var(--cinza-secundario);
     font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.landing__combo {
+    display: flex;
+    width: 77%;
+    padding: 12% 0 12% 12%;
+    gap: 80px;
+    align-items: center;
+}
+
+.landing__combo__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.landing__combo__conteudo__texto {
+    color: var(--cinza-secundario);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.landing__combo__conteudo__botao {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--branco-principal);
+    background-color: var(--botao-azul);
+    width: 27%;
+    padding: 24px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.landing__combo__imagem {
+    width: 100%;
+}
+
+.landing__cursos {
+    display: flex;
+    width: 77%;
+    padding: 12% 0 12% 12%;
+    gap: 80px;
+    align-items: center;
+}
+
+.landing__cursos__imagem {
+    width: 75%;
+}
+
+.landing__cursos__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.landing__cursos__conteudo__cabecalho {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.landing__cursos__conteudo__texto {
+    color: var(--cinza-secundario);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.landing__dispositivos {
+    display: flex;
+    width: 77%;
+    padding: 12% 0 12% 12%;
+    gap: 100px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing__dispositivos__cabecalho {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.landing__dispositivos__icones {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.landing__dispositivos__icones__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing__dispositivos__icones__imagem{
+    width: 130%;
+}
+
+.landing__dispositivos__icones__txt {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.landing__rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    gap: 40px;
+}
+
+.landing__rodape__imagem {
+    width: 8%;
+}
+
+
+.landing__rodape__links {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.landing__rodape__links__link {
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.landing__rodape__texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: var(--cinza-secundario);
+}
+
+.main__ops {
+    padding: 20%;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 600;
 }
