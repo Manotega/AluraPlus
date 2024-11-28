@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-fundo: #00030C;
+    --fonte-principal: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    
+}
+
+.landing {
+    display: flex;
+    gap: 50%;
+    flex-direction: column;
+}
+
+.fundo { 
+    background-image: url('Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.landing__assinatura {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    padding: 8% 4%;
+    gap: 2rem;
+}
+
+.combo {
+    width: 60%;
+}
+
+.landing__assinatura__titulo {
+    font-weight: 600;
+    font-size: 2.30rem;
+    width: 90%;
+    text-align: center  ;
+}
+
+.landing__assinatura__botoes {
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.landing__assinatura__botoes__combo {
+    width: 170%;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    padding: 24px 0;
+}
+
+.landing__assinatura__botoes__alura {
+    width: 170%;
+    border: 1px solid var(--branco-principal);
+    color: var(--branco-principal);
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    padding: 24px 0;
+}
+
+.landing__assinatura__botoes__asterisco {
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+
+.landing__plataformas {
+    display: flex;
+    width: 77%;
+    padding: 12% 0 12% 12%;
+    gap: 80px;
+    align-items: center;
+}
+
+.landing__plataformas__imagem {
+    width: 80%;
+}
+
+.landing__plataformas__conteudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.landing__plataformas__conteudo__cabecalho {
+    align-self: flex-start;
+    font-size: 4rem;
+}
+
+.landing__plataformas__conteudo__texto {
+    color: var(--cinza-secundario);
+    font-size: 1.4rem;
+}
