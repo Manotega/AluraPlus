@@ -265,3 +265,81 @@ body {
     font-size: 4.5rem;
     font-weight: 600;
 }
+
+
+@media (max-width: 1200px) {
+    .fundo {
+        padding: 10% 0;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landing__assinatura {
+        padding: 8% 0;
+        width: 80%;
+    }
+
+    .landing__assinatura__botoes__combo {
+        width: 100%;
+    }
+
+    .landing__assinatura__botoes__alura{
+        width: 100%;
+    }
+
+    .landing__plataformas {
+        flex-direction: column;
+        text-align: center;
+        padding: 15% 0 15% 10%;
+        width: 80%;
+    }
+
+    .landing__combo {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 15% 0 15% 10%;
+        width: 80%;
+    }
+
+    .landing__combo__conteudo {
+        align-items: center;
+    }
+
+    .landing__combo__conteudo__botao {
+        width: 100%;
+    }
+
+    .landing__cursos {
+        flex-direction: column;
+        text-align: center;
+        padding: 15% 0 15% 10%;
+        width: 80%;
+    }
+
+    .landing__dispositivos {
+        flex-direction: column;
+        text-align: center;
+        padding: 15% 0 15% 10%;
+        width: 80%;
+        gap: 32px;
+    }
+
+    .landing__dispositivos__icones__txt {
+        font-size: 0;
+    }
+
+    .landing__rodape {
+        padding: 5% 0;
+    }
+
+    .landing__rodape__imagem {
+        width: 30%;
+    }
+
+    .landing__rodape__links {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
