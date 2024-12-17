@@ -269,7 +269,7 @@ body {
 
 @media (max-width: 1200px) {
     .fundo {
-        padding: 10% 0;
+        padding: 0;
         background-image: none;
         display: flex;
         flex-direction: column;
@@ -277,7 +277,15 @@ body {
     }
 
     .landing__assinatura {
-        padding: 8% 0;
+        padding: 15% 0;
+        width: 80%;
+    }
+
+    .landing__assinatura__titulo {
+        font-size: 1.9rem;
+    }
+
+    .combo {
         width: 80%;
     }
 
@@ -294,6 +302,11 @@ body {
         text-align: center;
         padding: 15% 0 15% 10%;
         width: 80%;
+        gap: 32px;
+    }
+
+    .landing__plataformas__conteudo__cabecalho {
+        font-size: 2.4rem;
     }
 
     .landing__combo {
@@ -316,14 +329,23 @@ body {
         text-align: center;
         padding: 15% 0 15% 10%;
         width: 80%;
+        gap: 32px;
     }
 
     .landing__dispositivos {
         flex-direction: column;
         text-align: center;
-        padding: 15% 0 15% 10%;
+        padding: 15% 0 25% 10%;
         width: 80%;
         gap: 32px;
+    }
+
+    .landing__cursos__conteudo__cabecalho {
+        font-size: 2.4rem;
+    }
+
+    .landing__dispositivos__cabecalho {
+        font-size: 2.4rem;
     }
 
     .landing__dispositivos__icones__txt {
@@ -332,6 +354,7 @@ body {
 
     .landing__rodape {
         padding: 5% 0;
+        gap: 16px;
     }
 
     .landing__rodape__imagem {
@@ -340,6 +363,10 @@ body {
 
     .landing__rodape__links {
         flex-direction: column;
-        gap: 16px;
+        gap: 8px;
+    }
+
+    .landing__rodape__links__link {
+        width: 50%;
     }
 }
